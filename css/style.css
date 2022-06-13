@@ -116,7 +116,6 @@ body {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 30px;
-    margin-right: 5%;
 }
 
 #zones p {
