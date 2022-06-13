@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
 * {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    font-family: 'Nuosu SIL', serif;
+}
+
+body {
+    background-image: url(../imagens/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #cabecalho {
@@ -60,19 +68,17 @@ h2 {
     text-align: center;
     padding: 10px;
     font-size: 30px;
-    color: #002650;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
     margin-bottom: 10px;
-}
-
-body {
-    background-color: #DDD;
+    letter-spacing: 1px;
 }
 
 #conteudo {
     max-width: 800px;
     margin: 0 auto;
     padding: 40px;
-    background-color: #EEE;
+    background-color: rgba(0, 0, 0, .868);
     box-shadow: 0 0 10px #000;
 }
 
@@ -86,8 +92,8 @@ body {
 #conteudo p {
     margin-bottom: 15px;
     text-align: justify;
-    color: #002650;
-    font-size: 18px;
+    color: #fff;
+    font-size: 17px;
 }
 
 #button {
@@ -140,7 +146,7 @@ body {
 }
 
 figcaption {
-    color: #002650;
+    color: #ddd;
     display: block;
     margin: 0 auto;
     text-align: center;
