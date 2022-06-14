@@ -57,13 +57,12 @@ body {
 }
 
 #cabecalho nav li a:hover {
-    background-color: #067aee;
-    color: #000;
+    color:#fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.8);
 }
 
-h1,
-h2 {
+h1 {
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -73,6 +72,25 @@ h2 {
     text-shadow: black 0.1em 0.1em 0.2em;
     margin-bottom: 10px;
     letter-spacing: 1px;
+}
+
+h2 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 26px;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 #conteudo {
@@ -179,7 +197,7 @@ figcaption {
 }
 
 #rodape a:hover {
-    text-decoration: underline;
+    color: #1E90FF;
 }
 
 #redes li {
@@ -204,6 +222,10 @@ figcaption {
     color: #fff;
     font-size: 20px;
     padding: 10px;
+}
+
+#follow li a:hover {
+    color:#fff;
 }
 
 #follow i {
