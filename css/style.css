@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -57,7 +58,7 @@ body {
 }
 
 #cabecalho nav li a:hover {
-    color:#fff;
+    color: #fff;
     text-shadow: black 0.1em 0.1em 0.2em;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.8);
 }
@@ -225,7 +226,7 @@ figcaption {
 }
 
 #follow li a:hover {
-    color:#fff;
+    color: #fff;
 }
 
 #follow i {
