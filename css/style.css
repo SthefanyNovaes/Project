@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 #cabecalho {
@@ -93,6 +94,7 @@ h2 {
     margin-bottom: 15px;
     text-align: justify;
     color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
     font-size: 17px;
 }
 
