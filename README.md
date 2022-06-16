@@ -1,3 +1,3 @@
 https://sthefanynovaes.github.io/Project/
-# Project
+# Project-WoW
 Projeto de Introdução à Tecnologia Web
